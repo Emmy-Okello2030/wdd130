@@ -2,123 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Get in touch with Whitewater Rafting for reservations, inquiries, or suggestions.">
-    <meta name="author" content="Emily Okello">
-    <title>Contact Us | Whitewater Rafting</title>
+    <title>Contact Us - Whitewater Rafting Adventures</title>
     <link rel="stylesheet" href="rafting.css">
 </head>
 <body>
     <header>
-        <div class="header-grid">
-            <img src="images/wwr-logo.jpg" alt="Whitewater Rafting Logo" class="logo">
-            <h1>Whitewater Rafting Adventures</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="trips.html">Trips</a></li>
-                    <li><a href="contacta.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Our Trips</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <!-- Company Information Section -->
-        <section class="company-info">
-            <h2>Contact Information</h2>
-            <p><strong>Address:</strong> 123 River Road, Adventure City, AC 45678</p>
-            <p><strong>Phone:</strong> (123) 456-7890</p>
-            <p><strong>Email:</strong> info@whitewaterrafting.com</p>
-            <!-- Embedded Google Map -->
-            <div class="map-container">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0199132469065!2d-122.41941548468109!3d37.774929779759374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c1a3bfbf1%3A0x8b0d4a8f1b2e4f3!2s123%20River%20Road%2C%20Adventure%20City%2C%20AC%2045678!5e0!3m2!1sen!2sus!4v1616161616161!5m2!1sen!2sus" 
-                    width="600" 
-                    height="450" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-        </section>
-
-        <!-- Employee Profiles Section -->
-        <section class="employee-profiles">
-            <h2>Our Team</h2>
-            <div class="employee-grid">
-                <figure>
-                    <img src="images\headguide.jpeg" alt="Jan Doe ">
-                    <figcaption>Jan Doe - Head Guide</figcaption>
-                </figure>
-                <figure>
-                    <img src="images\safetyofficer.jpeg" alt="John Smith">
-                    <figcaption>John Smith - Safety Officer</figcaption>
-                </figure>
-                <figure>
-                    <img src="images\customerrelations.jpeg" alt="Emily Johnson & colleagues">
-                    <figcaption>Emily Johnson - Customer Relations</figcaption>
-                </figure>
-            </div>
-        </section>
-
-        <!-- Contact Form Section -->
-        <section class="contact-form">
-            <h2>Get in Touch</h2>
-            <form action="submit_form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
-
-                <fieldset>
-                    <legend>Purpose of Message:</legend>
-                    <label>
-                        <input type="radio" name="purpose" value="General Inquiry" required>
-                        General Inquiry
-                    </label>
-                    <label>
-                        <input type="radio" name="purpose" value="Reservation Question">
-                        Reservation Question
-                    </label>
-                    <label>
-                        <input type="radio" name="purpose" value="Website Suggestion">
-                        Website Suggestion
-                    </label>
-                </fieldset>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <label>
-                    <input type="checkbox" name="newsletter">
-                    Please subscribe me to the monthly newsletter
-                </label>
-
-                <button type="submit">Submit Your Message</button>
-            </form>
-        </section>
-    </main>
+    <section>
+        <h2>We'd Love to Hear From You</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <section id="contact-info">
+        <h2>Contact Information</h2>
+        <div class="contact-details">
+            <p><strong>Email:</strong> info@whitewateradventures.com</p>
+            <p><strong>Phone:</strong> <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            <p><strong>Address:</strong> 123 Adventure Road, Rapids City, USA</p>
+        </div>
+        <iframe src="https://maps.google.com/maps?q=rapids%20city%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+    </section>
+    
 
     <footer>
-        <div class="social-icons">
-            <a href="https://facebook.com/whitewaterrafting" target="_blank">
-                <img src="images/facebookimgicon.png" alt="Facebook">
-            </a>
-            <a href="https://twitter.com/whitewaterrafting" target="_blank">
-                <img src="images/twiterxiconimage.png" alt="Twitter">
-            </a>
-            <a href="https://instagram.com/whitewaterrafting" target="_blank">
-                <img src="images/instagramiconimage.jpeg" alt="Instagram">
-            </a>
-        </div>
-        <p>© 2024 Whitewater Rafting</p>
-        <!-- Link to Wireframe (Only on Contact Us Page) -->
-        <p><a href="https://moqups.com/yourwireframelink" target="_blank">View Contact Us Wireframe</a></p>
+        <p>&copy; 2024 Whitewater Rafting Adventures. All rights reserved.</p>
+        <footer>
+            
+        
+            <!-- Social Media Links -->
+            <div class="social">
+                <a href="https://facebook.com" target="_blank" class="social-link">
+                    <img src="images/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://wa.me/yourphonenumber" target="_blank" class="social-link">
+                    <img src="images/whatsap.jpeg" alt="WhatsApp">
+                </a>
+                <a href="https://twitter.com" target="_blank" class="social-link">
+                    <img src="images/twitter.jpeg" alt="Twitter">
+                </a>
+            </div>
+        </footer>
+        
     </footer>
 </body>
 </html>
