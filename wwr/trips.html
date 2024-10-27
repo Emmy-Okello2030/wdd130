@@ -3,60 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Trips - Whitewater Rafting Adventures</title>
-    <link rel="stylesheet" href="rafting.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Our Trips</title>
 </head>
 <body>
     <header>
-        <h1>Our Trips</h1>
+        <h1>Our Exciting Trips</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Our Trips</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
-        <h2>Adventure Awaits</h2>
-        <div id="trips-list">
+    <main>
+        <section class="trips">
+            <h2>Our Featured Trips</h2>
             <div class="trip-card">
-                <img src="images/rafting1.jpg" alt="Trip 1">
-                <h3>River Excursion</h3>
-                <p>Join us for an unforgettable river excursion!</p>
-                <a href="booking.html" class="button">Book Now</a>
+                <img src="images/rafting1.jpg" alt="Rafting Adventure">
+                <h3>Rafting Adventure</h3>
+                <p>Experience the thrill of white-water rafting on the breathtaking river.</p>
             </div>
             <div class="trip-card">
-                <img src="images/rafting2.jpg" alt="Trip 2">
-                <h3>Weekend Getaway</h3>
-                <p>Enjoy a weekend getaway filled with adventure!</p>
-                <a href="booking.html" class="button">Book Now</a>
+                <img src="images/kayaking.jpeg" alt="Kayaking Experience">
+                <h3>Kayaking Experience</h3>
+                <p>Paddle through serene waters and enjoy the beauty of nature.</p>
             </div>
             <div class="trip-card">
-                <img src="images/rafting3.jpg" alt="Trip 3">
-                <h3>Family Adventure</h3>
-                <p>Perfect for families looking for fun!</p>
-                <a href="booking.html" class="button">Book Now</a>
+                <img src="images/breathtaking.jpg" alt="Scenic Trip">
+                <h3>Scenic Trip</h3>
+                <p>Join us for a scenic trip through stunning landscapes.</p>
             </div>
-        </div>
-    </section>
+
+            <a href="contact.html" class="cta-button">Book Your Trip Now!</a>
+        </section>
+
+        <section class="trip-summary">
+            <h2>Trip Summary</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip Name</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rafting Adventure</td>
+                        <td>3 Days</td>
+                        <td>$299</td>
+                    </tr>
+                    <tr>
+                        <td>Kayaking Experience</td>
+                        <td>2 Days</td>
+                        <td>$199</td>
+                    </tr>
+                    <tr>
+                        <td>Scenic Trip</td>
+                        <td>1 Day</td>
+                        <td>$99</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Whitewater Rafting Adventures. All rights reserved.</p>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank" class="social-link">
-                <img src="images/facebook.png" alt="facebook">
-            </a>
-            <a href="https://wa.me/yourphonenumber" target="_blank" class="social-link">
-                <img src="images/whatsap.jpeg" alt="whatsApp">
-            </a>
-            <a href="https://twitter.com" target="_blank" class="social-link">
-                <img src="images/twitter.jpeg" alt="twitter">
-            </a>
-           
-        </div>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
     </footer>
 </body>
 </html>
